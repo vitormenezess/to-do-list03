@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to left , #BFB6AE,#F2EFBD,#594839);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background:transparent;
+    border: 1px solid white;
+    padding: 50px; 
+
+}
+.new-task-container{
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 2px 10px 1px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+.new-task-container input{
+
+    height: 40px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid #d2d3d4;
+}
+.new-task-button{
+    border: none;
+    height: 40px;
+    background: #898C37;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+.new-task-button:hover{
+    background: #7f8227;
+
+}
+.new-task-button:active{
+    transform: scale(0.96);
+}
+.tasks-container{
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 2px 10px 1px;
+    border-radius: 2px;
+}
+
+.error{
+    border: 2px solid #f32f2f !important;
+}
+.error::placeholder{
+    color: #f32f2f;
+}
+
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.delete-task-button{
+    background-color: #898C37;
+    padding: 12px;
+    border-radius: 5px;
+}
+.delete-task-button:hover{
+    transform: rotate(10deg);
+}
+.delete-task-button:active{
+    transform: scale(0.96);
+}
+.checked{
+    text-decoration: line-through;
+}
