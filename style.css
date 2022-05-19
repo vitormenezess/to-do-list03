@@ -14,10 +14,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+.title{
+    text-align: center;
+    padding-bottom: 15px;
+    user-select: none;
+}
 .container{
     background:transparent;
     border: 1px solid white;
-    padding: 50px; 
+    padding: 50px;
+    box-shadow:0px 2px 10px 1px ; 
 
 }
 .new-task-container{
