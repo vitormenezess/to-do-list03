@@ -7,7 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to left , #BFB6AE,#F2EFBD,#594839);
+    background-image: linear-gradient(to left , #db7113,#f4b67d,#eac5a6);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -44,7 +44,7 @@ body{
 .new-task-button{
     border: none;
     height: 40px;
-    background: #898C37;
+    background: #db7113;
     padding: 10px;
     border-radius: 4px;
     font-weight: bold;
@@ -52,7 +52,7 @@ body{
     margin: 10px;
 }
 .new-task-button:hover{
-    background: #7f8227;
+    background: #db7113;
 
 }
 .new-task-button:active{
@@ -80,7 +80,7 @@ body{
     padding-bottom: 10px;
 }
 .delete-task-button{
-    background-color: #898C37;
+    background-color: #db7113;
     padding: 12px;
     border-radius: 5px;
 }
